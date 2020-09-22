@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "name": "asp.net",
+  "private": true,
+  "devDependencies": {
+    "@types/jquery": "^3.3.31",
+    "gulp": "^3.9.1",
+    "gulp-concat": "2.6.1",
+    "gulp-less": "3.3.0",
+    "gulp-rename": "1.2.2",
+    "gulp-uglify": "2.1.2",
+    "gulp-watch": "4.3.11",
+    "less": "2.7.2",
+    "natives": "^1.1.6",
+    "typescript": "3.7.2"
+  },
+  "dependencies": {
+    "graceful-fs": "^4.2.4",
+    "@aspnet/signalr": "1.0.0",
+    "bootstrap": "^4.5.2"
+  },
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
+  }
+}
