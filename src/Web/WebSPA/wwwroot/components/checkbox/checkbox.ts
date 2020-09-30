@@ -8,7 +8,7 @@ async function checkboxConstructor(el: HTMLElement, app: DrapoApplication): Prom
 class Checkbox {
     //Field
     private _el: HTMLElement = null;
-    private _app: any;
+    private _app: DrapoApplication;
     //Properties
     //Constructors
     constructor(el: HTMLElement, app: DrapoApplication) {

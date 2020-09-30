@@ -1,9 +1,7 @@
 <div dc-value="" dc-label="" dc-onclick="">
-    <div style="width:100%">
-        <!--Layout-->
-        <div class="ppcCheckboxLayout">
-            <input class="ppcCheckboxInput" type="checkbox" />
-            <span class="ppcCheckboxLabel"></span>
-        </div>
+    <div d-dataKey="dcProperties" d-dataType="parent" d-dataLoadType="reference" d-dataValue="dc-"></div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" d-model={{dcProperties.value}} />
+        <span class="form-check-label" d-model="{{dcProperties.label}}"></span>
     </div>
 </div>
