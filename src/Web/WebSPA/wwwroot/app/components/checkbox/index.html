@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<script src="/drapo.js"></script>
+<div d-sector-parent-url="~/app/shared/layout.html" d-sector-parent="content">
+    <!-- Data -->
+    <div>
+        <div d-dataKey="checkboxAttribute" d-dataType="object" d-dataLoadType="startup" d-dataProperty-label-name="Label" d-dataProperty-label-value="Click to check" d-dataProperty-value-name="Value" d-dataProperty-value-value="true"></div>
+    </div>
+    <!-- Layout -->
+    <div>
+        <d-checkbox dc-label="{{checkboxAttribute.Label}}" dc-value="{{checkboxAttribute.Value}}" dc-onclick=""></d-checkbox>
+    </div>

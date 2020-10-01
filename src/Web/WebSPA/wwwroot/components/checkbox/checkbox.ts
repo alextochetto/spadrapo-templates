@@ -21,6 +21,14 @@ class Checkbox {
     }
 
     public async Initalize(): Promise<void> {
-        
+        let checkboxLabel = this._el.getAttribute('dc-label');
+        this._el.removeAttribute('dc-label');
+        let elLabel: any = this._el.children[0].children[1];
+        elLabel.setAttribute('d-model', checkboxLabel);
+
+        let checkboxValue = this._el.getAttribute('dc-value');
+        this._el.removeAttribute('dc-value');
+        let elValue: any = this._el.children[0].children[0];
+        elValue.setAttribute('d-model', checkboxValue);
     }
 }
