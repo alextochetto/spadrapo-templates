@@ -64,16 +64,7 @@ var Checkbox = (function () {
     });
     Checkbox.prototype.Initalize = function () {
         return __awaiter(this, void 0, void 0, function () {
-            var checkboxLabel, elLabel, checkboxValue, elValue;
             return __generator(this, function (_a) {
-                checkboxLabel = this._el.getAttribute('dc-label');
-                this._el.removeAttribute('dc-label');
-                elLabel = this._el.children[0].children[1];
-                elLabel.setAttribute('d-model', checkboxLabel);
-                checkboxValue = this._el.getAttribute('dc-value');
-                this._el.removeAttribute('dc-value');
-                elValue = this._el.children[0].children[0];
-                elValue.setAttribute('d-model', checkboxValue);
                 return [2];
             });
         });
